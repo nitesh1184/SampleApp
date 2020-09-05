@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:background="#531CF0"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    >
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:text="Enter User Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/etname"
+        android:layout_marginTop="20dp"
+        android:background="#fff"
+        android:layout_width="250dp"
+        android:hint="Enter Name"
+        android:layout_height="50dp" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/etemail"
+        android:hint="Enter Email"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/etcity"
+        android:hint="Enter City"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="SUBMIT"
+        android:id="@+id/submit_btn"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
+</layout>
